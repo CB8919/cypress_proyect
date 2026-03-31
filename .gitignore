@@ -1,0 +1,13 @@
+# Dependencias (Lo más pesado)
+node_modules/
+
+# Resultados de Cypress (Videos y fotos de los tests que fallan)
+cypress/screenshots/
+cypress/videos/
+
+# Archivos de sistema y logs
+npm-debug.log*
+.DS_Store
+
+# IDEs
+.vscode/
