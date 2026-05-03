@@ -28,7 +28,7 @@ Validar el correcto funcionamiento de flujos críticos de usuario y consistencia
 - JavaScript
 
 ## Ejemplos de pruebas
-Frontend (E2E)
+**Frontend (E2E)**
 
 Caso 1: Compra de carrito exitosa
 
@@ -54,7 +54,7 @@ Usuario selecciona un libro
 Lo agrega a la lista de deseos
 Se valida persistencia y visualización en la wishlist
 
-API Testing
+**API Testing**
 
 Caso 1: Error al comprar sin token
 
