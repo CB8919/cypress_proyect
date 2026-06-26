@@ -8,24 +8,45 @@ Proyecto de automatización de pruebas end-to-end y validación de APIs sobre un
 
 Validar el correcto funcionamiento de flujos críticos de usuario y consistencia entre frontend y backend.
 
-## Alcance de pruebas
+## Tecnologías
+- Cypress
+- JavaScript
+- Postman (API Testing)
+- REST APIs
+- Page Object Model (POM)
 
+## Estructura del proyecto
+cypress/
+├── e2e/                        # Tests E2E y API
+├── fixtures/                   # Datos de prueba
+└── support/
+    └── page_objects/           # Page Object Model (POM)
+
+## Alcance de pruebas
 - Login de usuario
 - Navegación
 - Validación de productos
 - Requests a API
 
 ## Tipos de testing
-
 - E2E testing
 - API testing
 - Validación de status codes
 - Escenarios positivos y negativos
 
-## Tecnologías
+## Instalación y ejecución
 
-- Cypress
-- JavaScript
+# Clonar el repositorio
+git clone https://github.com/CB8919/cypress_proyect.git
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo visual
+npx cypress open
+
+# Ejecutar en modo headless
+npx cypress run
 
 ## Ejemplos de pruebas
 **Frontend (E2E)**
